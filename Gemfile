@@ -1,9 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
-gem 'jquery-rails'
-gem 'devise'
-gem 'simple_form'
 
 
 # Bundle edge Rails instead:
@@ -22,6 +19,12 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+
+gem 'jquery-rails'
+gem 'devise'
+gem 'simple_form'
+
+  
 end
 
 
